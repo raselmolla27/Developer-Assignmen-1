@@ -268,8 +268,8 @@ nav button{
 .my-target-container{
     width: 1140px;
     height: 460px;   
-    margin: 0 auto;   
-    /* border: 2px solid blue;  */
+    margin: 0 auto; 
+    margin-bottom: 60px;  
 }
 .my-target-text{
     width: 852px;
@@ -319,10 +319,90 @@ background-color: rgba(255, 223, 0, 0.05);
 /* my-target design ends here */
 
 /* footer design starts here */
+.footer{
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    background-blend-mode: overlay;
+    padding: 64px 48px;
+}
+.footer-texts{
+    width: 730px;
+    height: 104px; 
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;  
+}
+.footer-texts h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+.footer-texts p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+#input-section{
+    width: 684px;
+    height: 57px; 
+    margin: 0 auto; 
+    display: flex;
+    margin-top: 24px;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+#input-section input{
+    width: 548px;
+    height: 57px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);    
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+#input-section button{
+    width: 120px;
+    height: 60px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
 
-/* input section hare */
-
-/* social link hare */
-
-
+.social-links{
+    width: 1140px;
+    height: 36px;
+    margin: 0 auto; 
+    margin-top: 110px; 
+    padding: 32px 150px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.social-links-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;    
+}
+.social-icons{
+    display: flex;
+    gap: 24px;
+}
 /* footer design ends here */
