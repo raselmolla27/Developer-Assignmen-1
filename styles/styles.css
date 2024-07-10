@@ -112,7 +112,111 @@ nav button{
 /* banner design ends here */
 
 /* why web dev styles starts here */
+.why-web-dev{
+    width: 1140px;
+    height: 1395px; 
+    margin: 0 auto;
+    background-color: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+}
+.why-text-container{
+    width: 852px;
+    height: 115px;
+    margin: 0px auto;
+    text-align: center;
+}
+.why-text-container h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+.why-text-container p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.first-col{
+    width: 850px;
+    height: 240px;
+    margin: 0 auto; 
+    margin-top: 48px;
+    margin-bottom: 38px;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.first-col h1{
+    width: 390px;
+    height: 72px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+.first-col p{
+    width: 468px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
 
+.second-col{
+    width: 850px;
+    height: 240px;
+    margin: 0 auto; 
+    margin-bottom: 38px;      
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);  
+}
+.second-col h1{
+    width: 477px;
+    height: 72px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+.second-col p{
+    width: 468px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.third-col{
+    width: 850px;
+    height: 240px;
+    margin: 0 auto; 
+    margin-bottom: 38px;    
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%); 
+}
+.third-col h1{
+    width: 477px;
+    height: 72px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+.third-col p{
+    width: 468px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
 /* why web dev styles starts here */
 
 /* my-inspiration-styles starts here */
