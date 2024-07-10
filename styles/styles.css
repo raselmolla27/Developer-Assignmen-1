@@ -265,8 +265,58 @@ nav button{
 /* my-inspiration-styles ends here */
 
 /* my-target design starts here */
-
-/* my-target design starts here */
+.my-target-container{
+    width: 1140px;
+    height: 460px;   
+    margin: 0 auto;   
+    /* border: 2px solid blue;  */
+}
+.my-target-text{
+    width: 852px;
+    height: 113px;   
+    margin: 0 auto; 
+    text-align: center;
+}
+.my-target-text h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+.my-target-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.my-target-cards{
+    margin-top: 48px;
+    display: flex;
+    gap: 20px;
+}
+.html-card ,.css-card, .java-card{
+    width: 364px;
+    height: 272px;
+    border-radius: 10px;
+    margin-left: 5px;
+    padding: 16px;
+}
+.html-card{
+   background-color: rgba(255, 76, 30, 0.05); 
+}
+.css-card{
+background-color: rgba(0, 76, 232, 0.05);
+}
+.java-card{
+background-color: rgba(255, 223, 0, 0.05);
+}
+.btn-learn{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;   
+}
+/* my-target design ends here */
 
 /* footer design starts here */
 
